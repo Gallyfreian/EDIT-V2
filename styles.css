@@ -20,7 +20,7 @@
     --font-size-base: 1.5rem;
     --font-size-h1: 2rem;
     --transition: all 300ms ease;
-    --btn-height: 24px;
+    --btn-height: 1rem;
     --btn-error: red;
     --btn-error-bg: var(--body-bg);
     --card-bg: #ffffffdc;
@@ -780,7 +780,7 @@ table tr:hover,
 }
 
 .modal h3 {
-    color: black;
+    color: var(--color-text);
 }
 
 .modal[aria-hidden="false"],
@@ -803,6 +803,8 @@ table tr:hover,
 
 .modal-content .modal-content__header {
     text-align: right;
+
+    margin-bottom: 2rem;
 }
 
 .modal-content .modal-content__footer {
